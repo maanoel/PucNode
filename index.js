@@ -31,3 +31,7 @@ console.log(calculadora.subtracao(20, 1));
 console.log(calculadora.adicao(20, 1));
 console.log(calculadora.multipliacao(20, 2));
 console.log(calculadora.divisao(20, 2));
+
+//testand o express
+const express = require("./teste/server_express");
+console.log(express());
