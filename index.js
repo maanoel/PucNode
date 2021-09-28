@@ -25,8 +25,9 @@ fs.readFile("./teste/teste.txt", (err, data) => {
   console.log(data);
 });
 
-//Usando moduloe criado
 const calculadora = require("./teste/somemodule");
 
 console.log(calculadora.subtracao(20, 1));
-console.log(calculadora.add(20, 1));
+console.log(calculadora.adicao(20, 1));
+console.log(calculadora.multipliacao(20, 2));
+console.log(calculadora.divisao(20, 2));
